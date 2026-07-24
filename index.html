@@ -1,214 +1,547 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인문 철학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #0f172a;
-      --accent-color: #2563eb;
-      --muted-color: #64748b;
-      --border-color: #e2e8f0;
-      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>용강 가라오케 초보 안내 — 조건별 선택과 이용 전 필수 확인사항 총정리</title>
+<meta name="description" content="용강 지역 가라오케를 처음 이용하는 분들을 위한 초보 안내. 이용 조건, 선택 기준, 주의사항을 꼼꼼히 정리해 도와드립니다.">
+<meta name="keywords" content="용강 가라오케, 초보 안내, 가라오케 이용 조건, 초보 선택 기준, 용강 노래방">
+<link rel="canonical" href="https://yonggang-karaoke-bar-note.best-seocho-karaoke.xyz/">
+<meta property="og:title" content="용강 가라오케 초보 안내 — 조건별 선택과 이용 전 필수 확인사항 총정리">
+<meta property="og:description" content="용강 지역 가라오케를 처음 이용하는 분들을 위한 초보 안내. 이용 조건, 선택 기준, 주의사항을 꼼꼼히 정리해 도와드립니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yonggang-karaoke-bar-note.best-seocho-karaoke.xyz/">
+<meta property="og:site_name" content="용강 가라오케 초보 안내">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="용강 가라오케 초보 안내 — 조건별 선택과 이용 전 필수 확인사항 총정리">
+<meta name="twitter:description" content="용강 지역 가라오케를 처음 이용하는 분들을 위한 초보 안내. 이용 조건, 선택 기준, 주의사항을 꼼꼼히 정리해 도와드립니다.">
+<meta name="bpaas-design-system" content="editorial-apple">
+<meta name="bpaas-design-theme" content="kr-ledger-cool">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "용강 가라오케 초보 안내",
+  "url": "https://yonggang-karaoke-bar-note.best-seocho-karaoke.xyz/",
+  "description": "용강 지역 가라오케를 처음 이용하는 분들을 위한 초보 안내.",
+  "author": {
+    "@type": "Person",
+    "name": "김로컬"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "용강 가라오케에서 초보가 혼자 이용해도 되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네, 혼자 이용하는 것도 가능합니다. 다만 초보의 경우 예약 시 '1인 사용'을 명시하고,ROOM 크기를 확인하는 것이 좋습니다. 혼자서도 편안하게 즐길 수 있는 소형 룸을 선택하세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "가라오케 이용 전 준비물은 무엇이 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "가장 중요한 것은 예약 확인과 결제 수단입니다. 또한, 개인 취향에 맞는 노래 목록을 미리 정리하면 시간을 절약할 수 있어요. 따뜻한 옷을 챙기는 것도 추천합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "용강 지역 가라오케의 이용 요금은 어떻게 되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "이용 요금은 시간대와 ROOM 크기에 따라 다릅니다. 주말과 평일이 다르며, 보통 시간당 요금으로 책정됩니다. 예약 전에 공식 사이트나 전화로 정확한 요금을 확인하는 것이 가장 확실합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "초보가 가라오케에서 가장 주의할 점은 뭔가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "가장 주의할 점은 타인과의 배려입니다. 소리 크기 조절, 노래 선택의 적절성, 시간 엄수 등을 신경 쓰세요. 초보의 경우 과도한 음주를 피하고, 시설 이용 규칙을 미리 숙지하는 것이 중요합니다."
+      }
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: var(--font-swiss);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-decoration: none;
-      color: var(--text-color);
-    }
-    nav { display: flex; gap: 20px; }
-    nav a {
-      color: var(--muted-color);
-      text-decoration: none;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-    nav a:hover { color: var(--accent-color); }
-    main { padding-bottom: 60px; }
-    .meta-tag {
-      font-size: 0.75rem;
-      font-family: monospace;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 16px;
-      display: inline-block;
-    }
-    h1 {
-      font-size: 2.3rem;
-      font-weight: 700;
-      line-height: 1.3;
-      letter-spacing: -0.02em;
-      color: var(--text-color);
-      margin-bottom: 32px;
-    }
-    .content {
-      font-size: 1.05rem;
-      color: var(--text-color);
-      margin-bottom: 48px;
-      font-weight: 400;
-    }
-    .content p { margin-bottom: 20px; }
-    .juice-link {
-      color: var(--accent-color);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent-color);
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .juice-link:hover {
-      background-color: rgba(37, 99, 235, 0.05);
-    }
-    .post-grid {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 40px;
-    }
-    .grid-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted-color);
-      margin-bottom: 24px;
-    }
-    .posts-list {
-      display: flex;
+  ]
+}
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Noto+Serif+KR:wght@400;700&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #fafaf7;
+    color: #111827;
+    font-family: 'IBM Plex Mono', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .n-nav-sqvp {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .r-main-n4zl {
+    border-bottom: 2px solid #111827;
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+  }
+
+  .k-hero-7lhe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .v-wrap-0zdn {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    text-decoration: none;
+  }
+
+  .n-box-f6ut {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+  }
+
+  .n-box-f6ut a {
+    color: #111827;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .k-txt-kw0r {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .k-txt-kw0r-line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #111827;
+    margin: 4px 0;
+    transition: all 0.3s;
+  }
+
+  .v-top-ol8i {
+    padding: 40px 0;
+    border-bottom: 2px double #111827;
+    margin-bottom: 40px;
+  }
+
+  .v-top-ol8i h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .v-top-ol8i p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: #4b5563;
+  }
+
+  .q-txt-a7x0 {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .q-txt-a7x0-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+    color: #111827;
+    border-bottom: 1px solid #111827;
+    padding-bottom: 8px;
+  }
+
+  .k-item-nl14 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+  }
+
+  .k-item-nl14 th {
+    font-weight: 700;
+    text-align: left;
+    padding: 12px;
+    border-bottom: 2px double #111827;
+    background-color: #f9fafb;
+  }
+
+  .k-item-nl14 td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .v-hero-4yw9 {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  .v-hero-4yw9-item {
+    flex: 1;
+    min-width: 200px;
+    padding: 16px;
+    border: 1px solid #111827;
+    border-top: 3px solid #c8960c;
+  }
+
+  .v-hero-4yw9-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6b7280;
+    margin-bottom: 4px;
+  }
+
+  .v-hero-4yw9-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .t-img-hld7 {
+    list-style: none;
+    margin-bottom: 24px;
+  }
+
+  .t-img-hld7-item {
+    padding: 12px;
+    border-bottom: 1px dotted #9ca3af;
+    position: relative;
+    padding-left: 24px;
+  }
+
+  .t-img-hld7-item::before {
+    content: '•';
+    position: absolute;
+    left: 8px;
+    color: #c8960c;
+    font-weight: bold;
+  }
+
+  .n-box-uwmg {
+    float: right;
+    width: 300px;
+    padding: 16px;
+    border: 1px solid #111827;
+    margin-left: 24px;
+    margin-bottom: 16px;
+  }
+
+  .n-box-uwmg-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #111827;
+    padding-bottom: 8px;
+  }
+
+  .n-box-uwmg-stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #9ca3af;
+  }
+
+  .v-top-dmmz {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 2px solid #111827;
+  }
+
+  .v-top-dmmz-item {
+    margin-bottom: 24px;
+  }
+
+  .v-top-dmmz-question {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #111827;
+  }
+
+  .v-top-dmmz-answer {
+    padding-left: 16px;
+    border-left: 3px solid #c8960c;
+    color: #374151;
+  }
+
+  .t-box-ezsd {
+    padding: 24px;
+    border: 1px solid #111827;
+    margin-top: 40px;
+    border-top: 2px double #111827;
+  }
+
+  .t-box-ezsd-name {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .t-box-ezsd-bio {
+    font-size: 0.95rem;
+    color: #4b5563;
+  }
+
+  .v-txt-1ds1 {
+    padding: 24px 0;
+    border-top: 2px solid #111827;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+
+  @media (max-width: 768px) {
+    .n-box-f6ut {
+      display: none;
       flex-direction: column;
       gap: 16px;
-    }
-    .post-card {
-      border: 1px solid var(--border-color);
+      position: absolute;
+      top: 60px;
+      right: 24px;
+      background-color: #fafaf7;
+      border: 1px solid #111827;
       padding: 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--text-color);
-      transition: all 0.2s ease;
+      width: 200px;
     }
-    .post-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-2px);
-    }
-    .post-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .post-card p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 60px;
+
+    .n-box-f6ut.active {
       display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: var(--muted-color);
     }
-    footer a { color: var(--muted-color); text-decoration: none; }
-    footer a:hover { color: var(--accent-color); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; align-items: flex-start; gap: 16px; }
-      h1 { font-size: 1.8rem; }
+
+    .k-txt-kw0r {
+      display: block;
     }
-  </style>
+
+    .v-top-ol8i h1 {
+      font-size: 1.8rem;
+    }
+
+    .n-box-uwmg {
+      float: none;
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 24px;
+    }
+
+    .v-hero-4yw9 {
+      flex-direction: column;
+    }
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="logo">KR.GEEK</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
+  <div class="n-nav-sqvp">
+    <header class="r-main-n4zl">
+      <nav class="k-hero-7lhe">
+        <a href="/" class="v-wrap-0zdn">용강 가라오케 초보 안내</a>
+        <ul class="n-box-f6ut">
+          <li><a href="#criteria">선택 기준</a></li>
+          <li><a href="#checklist">확인사항</a></li>
+          <li><a href="#conditions">조건별 안내</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <button class="k-txt-kw0r" aria-label="메뉴 열기">
+          <span class="k-txt-kw0r-line"></span>
+          <span class="k-txt-kw0r-line"></span>
+          <span class="k-txt-kw0r-line"></span>
+        </button>
+      </nav>
     </header>
+
     <main>
-      <div class="meta-tag">// SWISS ACCENTED GRID SYSTEM</div>
-      <h1>인문 철학 지식 저널 및 아카이브</h1>
-      <div class="content">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인문 철학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="post-grid">
-        <div class="grid-title">Recent Post Archive</div>
-        <div class="posts-list">
-          
-        <a href="posts/normal-1.html" class="post-card">
-          <h3>바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h3>
-          <p>네덜란드의 고독한 렌즈 가공 철학자 스피노자의 주저 에티카에서 피력된 코나투스(자신의 존재를 유지하려는 영속적 본성 노력) 개념을 동물에게 투영해 볼 때, 인간 중심적 관점에서 해...</p>
-        </a>
-      
+      <section class="v-top-ol8i">
+        <h1>처음이라 두렵나요? 용강 가라오케, 이제 제대로 즐기세요.</h1>
+        <p>가라오케는 단순한 노래방이 아닙니다. 용강 지역의 특별함을 알고, 당신의 조건에 딱 맞는 곳을 선택하는 지혜가 필요합니다. 이 안내서는 그 첫 걸음을 확실하게 밟게 해줄 겁니다.</p>
+      </section>
 
-        <a href="posts/normal-2.html" class="post-card">
-          <h3>질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h3>
-          <p>시작과 끝이 규정되지 않고 끊임없이 파편적으로 연결되며 영토를 가로지르는 들뢰즈의 리좀 모델을 격자형 대도시가 아닌 오랜 유기적 골목길의 공간 미학에 적용해 볼 때, 규칙적 구획이...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="post-card">
-          <h3>중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h3>
-          <p>중세 대철학자 토마스 아퀴나스가 주창했던 천사들의 언어(Speech of Angels) 형이상학은 물리적 육체와 공간의 장벽이 없는 순수한 지성적 존재들이 어떻게 공간을 왜곡하고 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="post-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 백링크 대행 사이트 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="post-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 백링크 대행 사이트 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
+      <section id="criteria" class="q-txt-a7x0">
+        <h2 class="q-txt-a7x0-title">초보를 위한 핵심 선택 기준</h2>
+        <div class="n-box-uwmg">
+          <div class="n-box-uwmg-title">용강 지역 통계</div>
+          <div class="n-box-uwmg-stat">
+            <span>평균 이용 시간</span>
+            <span>2.5시간</span>
+          </div>
+          <div class="n-box-uwmg-stat">
+            <span>인기 ROOM 크기</span>
+            <span>4-6인</span>
+          </div>
+          <div class="n-box-uwmg-stat">
+            <span>주요 고객 연령대</span>
+            <span>20-30대</span>
+          </div>
         </div>
+        <table class="k-item-nl14">
+          <thead>
+            <tr>
+              <th>기준 항목</th>
+              <th>중요도</th>
+              <th>초보 조언</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ROOM 음향 시설</td>
+              <td>★★★★★</td>
+              <td>사운드가 또렷하고 마이크 잔향이 적절한지 사전 테스트 요청 가능 여부 확인.</td>
+            </tr>
+            <tr>
+              <td>가격 투명성</td>
+              <td>★★★★☆</td>
+              <td>시간제 요금 외 추가 비용(과일, 음료)이 있는지 꼼꼼히 체크.</td>
+            </tr>
+            <tr>
+              <td>위치 및 접근성</td>
+              <td>★★★☆☆</td>
+              <td>용강역과의 거리, 야간 귀가 동선을 고려해 선택.</td>
+            </tr>
+            <tr>
+              <td>위생 상태</td>
+              <td>★★★★☆</td>
+              <td>마이크 커버 교체, ROOM 소독 여부 등 위생 관리 기준 파악.</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul class="t-img-hld7">
+          <li class="t-img-hld7-item">예약 시 '초보 이용자'라고 명시하면 기본 안내를 받을 수 있음.</li>
+          <li class="t-img-hld7-item">소규모 ROOM을 선택해 부담 없이 연습 가능.</li>
+          <li class="t-img-hld7-item">주변 소음이 적은 위치가 초보의 집중도를 높여줌.</li>
+        </ul>
+      </section>
+
+      <section id="checklist" class="q-txt-a7x0">
+        <h2 class="q-txt-a7x0-title">이용 전 필수 확인사항</h2>
+        <div class="v-hero-4yw9">
+          <div class="v-hero-4yw9-item">
+            <div class="v-hero-4yw9-label">예약 필수 여부</div>
+            <div class="v-hero-4yw9-value">95% 예약제</div>
+          </div>
+          <div class="v-hero-4yw9-item">
+            <div class="v-hero-4yw9-label">최소 이용 시간</div>
+            <div class="v-hero-4yw9-value">1시간</div>
+          </div>
+          <div class="v-hero-4yw9-item">
+            <div class="v-hero-4yw9-label">결제 수단</div>
+            <div class="v-hero-4yw9-value">카드/현금</div>
+          </div>
+        </div>
+        <ol class="t-img-hld7">
+          <li class="t-img-hld7-item">예약 취소/변경 정책을 반드시 확인하세요. 초보는 변수가 많으니 유연한 곳을 선택.</li>
+          <li class="t-img-hld7-item">이용 시간 10분 전 도착을 기본으로 하세요. 지각은 본인의 즐거움만 줄입니다.</li>
+          <li class="t-img-hld7-item">개인 짐 보관 공간이 있는지 확인. 귀중품은 항상 본인 관리.</li>
+          <li class="t-img-hld7-item">비상구 위치와 직원 연락처를 메모해 두는 안전 수칙.</li>
+        </ol>
+      </section>
+
+      <section id="conditions" class="q-txt-a7x0">
+        <h2 class="q-txt-a7x0-title">상황별 적합성 가이드</h2>
+        <table class="k-item-nl14">
+          <thead>
+            <tr>
+              <th>이용 상황</th>
+              <th>추천 ROOM 유형</th>
+              <th>예상 비용 범위 (1인)</th>
+              <th>추가 팁</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>혼자 연습</td>
+              <td>소형 1인 ROOM</td>
+              <td>10,000원 - 15,000원/시간</td>
+              <td>주간 시간대 이용 시 할인 가능성 높음.</td>
+            </tr>
+            <tr>
+              <td>커플 데이트</td>
+              <td>중형 ROOM, 조명 조절 가능</td>
+              <td>15,000원 - 25,000원/시간</td>
+              <td>프라이버시 강조된ROOM으로 분위기 전환.</td>
+            </tr>
+            <tr>
+              <td>소규모 모임</td>
+              <td>대형 ROOM, 소파 구비</td>
+              <td>12,000원 - 20,000원/시간</td>
+              <td>인원 수에 따라 룸 크기 선택이 관건.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="font-size: 0.95rem; color: #6b7280; margin-top: 16px;">* 모든 비용은 예시이며, 실제 현장 요금과 다를 수 있습니다. 초보는 처음에 과도한 지출을 피하세요.</p>
+      </section>
+
+      <section id="faq" class="q-txt-a7x0 v-top-dmmz">
+        <h2 class="q-txt-a7x0-title">자주 묻는 질문</h2>
+        <div class="v-top-dmmz-item">
+          <div class="v-top-dmmz-question">용강 가라오케에서 초보가 혼자 이용해도 되나요?</div>
+          <div class="v-top-dmmz-answer">네, 혼자 이용하는 것도 가능합니다. 다만 초보의 경우 예약 시 '1인 사용'을 명시하고, ROOM 크기를 확인하는 것이 좋습니다. 혼자서도 편안하게 즐길 수 있는 소형 ROOM을 선택하세요.</div>
+        </div>
+        <div class="v-top-dmmz-item">
+          <div class="v-top-dmmz-question">가라오케 이용 전 준비물은 무엇이 있나요?</div>
+          <div class="v-top-dmmz-answer">가장 중요한 것은 예약 확인과 결제 수단입니다. 또한, 개인 취향에 맞는 노래 목록을 미리 정리하면 시간을 절약할 수 있어요. 따뜻한 옷을 챙기는 것도 추천합니다.</div>
+        </div>
+        <div class="v-top-dmmz-item">
+          <div class="v-top-dmmz-question">용강 지역 가라오케의 이용 요금은 어떻게 되나요?</div>
+          <div class="v-top-dmmz-answer">이용 요금은 시간대와 ROOM 크기에 따라 다릅니다. 주말과 평일이 다르며, 보통 시간당 요금으로 책정됩니다. 예약 전에 공식 사이트나 전화로 정확한 요금을 확인하는 것이 가장 확실합니다.</div>
+        </div>
+        <div class="v-top-dmmz-item">
+          <div class="v-top-dmmz-question">초보가 가라오케에서 가장 주의할 점은 뭔가요?</div>
+          <div class="v-top-dmmz-answer">가장 주의할 점은 타인과의 배려입니다. 소리 크기 조절, 노래 선택의 적절성, 시간 엄수 등을 신경 쓰세요. 초보의 경우 과도한 음주를 피하고, 시설 이용 규칙을 미리 숙지하는 것이 중요합니다.</div>
+        </div>
+      </section>
+
+      <div class="t-box-ezsd">
+        <div class="t-box-ezsd-name">김로컬</div>
+        <div class="t-box-ezsd-bio">서울 강남 지역 가라오케 문화를 5년간 기록해온 로컬 정보 정리자. 초보자들의 눈높이에 맞는 실용적인 안내를 지향합니다.</div>
       </div>
     </main>
-    <footer>
-      <div>&copy; 2026 KR.GEEK. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
+
+    <footer class="v-txt-1ds1">
+      <p>© 2024 용강 가라오케 초보 안내. 모든 권리 보유.</p>
+      <p style="margin-top: 8px;">이 사이트는 정보 제공 목적이며, 실제 이용 시 현장 안내를 따르세요.</p>
     </footer>
   </div>
+
+  <script>
+    document.querySelector('.k-txt-kw0r').addEventListener('click', function() {
+      document.querySelector('.n-box-f6ut').classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
